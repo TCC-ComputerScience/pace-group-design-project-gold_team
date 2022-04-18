@@ -1,0 +1,21 @@
+// PACE Group 1 - Battleship Pseudocode
+
+// Structs: Game Board - array of chars with defined sizes
+// 	    Ship       - Size and direction/facing to place on board
+
+// Initialize player and computer boards
+// Place ships on computer's board
+
+// Loop until player wins game:
+while(!endGame){
+   // Output player's board to show hits/misses
+   // Accept a set of coordinates from the player
+   // Check the coordinates on the computer's board
+      // If there is a ship there, update player's board with a HIT
+      // If there is no ship, update the player's board with a MISS
+   // Compare the player's board to the computer's board
+      // If all ship tiles have been hit, end the game
+      // Otherwise, continue game
+}
+
+// After the game ends, maybe show the computer's board?
